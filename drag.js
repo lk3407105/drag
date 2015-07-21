@@ -13,7 +13,6 @@ function drag(id) {
 		if(obj.setCapture) {
 			obj.setCapture();			
 		}
-		
 		document.onmousemove = function(ev) {
 			var ev = ev || window.event;
 			
